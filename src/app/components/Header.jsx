@@ -61,7 +61,7 @@ const Header = () => {
             onClick={ hanldeToggle }
             style={{ cursor:'pointer' }}
             >
-              user@user.com
+              email@user.com
           </li>
           <li className="navbar-shopping-cart" 
               onClick={ ()=>setToggleOrder(!toggleOrder) } 
